@@ -9,10 +9,11 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 	"errors"
-	"github.com/lunixbochs/struc"
 	"io"
 	"log/slog"
 	"unicode/utf16"
+
+	"github.com/lunixbochs/struc"
 
 	"github.com/nakagami/grdp/core"
 	"github.com/nakagami/grdp/emission"
@@ -125,7 +126,7 @@ func NewExtendedInfo(auto *ClientAutoReconnect) *RDPExtendedInfo {
 		ClientDir:           []byte{0, 0},
 		ClientTimeZone:      make([]byte, 172),
 		ClientSessionId:     0,
-		PerformanceFlags:    PERF_DISABLE_WALLPAPER | PERF_DISABLE_FULLWINDOWDRAG | PERF_DISABLE_MENUANIMATIONS | PERF_DISABLE_THEMING | PERF_ENABLE_FONT_SMOOTHING | PERF_ENABLE_DESKTOP_COMPOSITION,
+		PerformanceFlags:    PERF_ENABLE_FONT_SMOOTHING | PERF_ENABLE_DESKTOP_COMPOSITION,
 		AutoReconnect:       auto,
 	}
 }
