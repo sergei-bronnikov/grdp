@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nakagami/grdp/plugin/cliprdr"
+	"github.com/sergei-bronnikov/grdp/plugin/cliprdr"
 )
 
 func TestClip(t *testing.T) {

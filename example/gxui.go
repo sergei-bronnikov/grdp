@@ -14,7 +14,7 @@ import (
 	"github.com/google/gxui/samples/flags"
 	"github.com/google/gxui/themes/light"
 
-	"github.com/nakagami/grdp"
+	"github.com/sergei-bronnikov/grdp"
 )
 
 var (

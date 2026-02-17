@@ -8,9 +8,9 @@ import (
 	"log/slog"
 
 	"github.com/lunixbochs/struc"
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/emission"
-	"github.com/nakagami/grdp/protocol/tpkt"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/emission"
+	"github.com/sergei-bronnikov/grdp/protocol/tpkt"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

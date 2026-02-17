@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"log/slog"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/plugin"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/plugin"
 )
 
 const (

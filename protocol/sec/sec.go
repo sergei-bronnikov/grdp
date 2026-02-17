@@ -15,12 +15,12 @@ import (
 
 	"github.com/lunixbochs/struc"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/emission"
-	"github.com/nakagami/grdp/protocol/lic"
-	"github.com/nakagami/grdp/protocol/nla"
-	"github.com/nakagami/grdp/protocol/t125"
-	"github.com/nakagami/grdp/protocol/t125/gcc"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/emission"
+	"github.com/sergei-bronnikov/grdp/protocol/lic"
+	"github.com/sergei-bronnikov/grdp/protocol/nla"
+	"github.com/sergei-bronnikov/grdp/protocol/t125"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/gcc"
 )
 
 /**

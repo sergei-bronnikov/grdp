@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 	"github.com/tomatome/win"
 )
 

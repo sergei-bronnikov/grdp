@@ -7,7 +7,7 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 )
 
 type ControlFlag uint8

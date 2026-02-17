@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/lunixbochs/struc"
-	"github.com/nakagami/grdp/protocol/nla"
+	"github.com/sergei-bronnikov/grdp/protocol/nla"
 )
 
 func TestNewNegotiateMessage(t *testing.T) {

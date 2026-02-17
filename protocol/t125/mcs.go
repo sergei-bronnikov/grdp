@@ -10,15 +10,15 @@ import (
 	"reflect"
 
 	//	"github.com/nakagami/grdp/plugin/cliprdr"
-	"github.com/nakagami/grdp/plugin/rail"
+	"github.com/sergei-bronnikov/grdp/plugin/rail"
 
 	//	"github.com/nakagami/grdp/plugin/drdynvc"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/emission"
-	"github.com/nakagami/grdp/protocol/t125/ber"
-	"github.com/nakagami/grdp/protocol/t125/gcc"
-	"github.com/nakagami/grdp/protocol/t125/per"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/emission"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/ber"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/gcc"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/per"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

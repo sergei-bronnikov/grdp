@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/emission"
-	"github.com/nakagami/grdp/protocol/nla"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/emission"
+	"github.com/sergei-bronnikov/grdp/protocol/nla"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

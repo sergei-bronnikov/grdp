@@ -1,6 +1,6 @@
 package core
 
-import "github.com/nakagami/grdp/emission"
+import "github.com/sergei-bronnikov/grdp/emission"
 
 type Transport interface {
 	Read(b []byte) (n int, err error)

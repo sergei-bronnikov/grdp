@@ -5,7 +5,7 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 )
 
 func ReadEnumerates(r io.Reader) (uint8, error) {

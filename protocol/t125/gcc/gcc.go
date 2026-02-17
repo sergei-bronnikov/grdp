@@ -13,8 +13,8 @@ import (
 	"os"
 
 	"github.com/lunixbochs/struc"
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/protocol/t125/per"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/per"
 )
 
 var t124_02_98_oid = []byte{0, 0, 20, 124, 0, 1}

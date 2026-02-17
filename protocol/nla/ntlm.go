@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/lunixbochs/struc"
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 )
 
 const (

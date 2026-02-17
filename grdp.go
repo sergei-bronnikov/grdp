@@ -7,16 +7,16 @@ import (
 	"log/slog"
 	"net"
 
-	"github.com/nakagami/grdp/plugin"
+	"github.com/sergei-bronnikov/grdp/plugin"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/protocol/nla"
-	"github.com/nakagami/grdp/protocol/pdu"
-	"github.com/nakagami/grdp/protocol/sec"
-	"github.com/nakagami/grdp/protocol/t125"
-	"github.com/nakagami/grdp/protocol/t125/gcc"
-	"github.com/nakagami/grdp/protocol/tpkt"
-	"github.com/nakagami/grdp/protocol/x224"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/protocol/nla"
+	"github.com/sergei-bronnikov/grdp/protocol/pdu"
+	"github.com/sergei-bronnikov/grdp/protocol/sec"
+	"github.com/sergei-bronnikov/grdp/protocol/t125"
+	"github.com/sergei-bronnikov/grdp/protocol/t125/gcc"
+	"github.com/sergei-bronnikov/grdp/protocol/tpkt"
+	"github.com/sergei-bronnikov/grdp/protocol/x224"
 )
 
 var (

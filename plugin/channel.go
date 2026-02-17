@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"unsafe"
 
-	"github.com/nakagami/grdp/core"
-	"github.com/nakagami/grdp/emission"
+	"github.com/sergei-bronnikov/grdp/core"
+	"github.com/sergei-bronnikov/grdp/emission"
 )
 
 const (

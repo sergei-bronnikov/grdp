@@ -8,7 +8,7 @@ import (
 	"log/slog"
 
 	"github.com/lunixbochs/struc"
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 )
 
 const (

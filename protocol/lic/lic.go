@@ -3,7 +3,7 @@ package lic
 import (
 	"io"
 
-	"github.com/nakagami/grdp/core"
+	"github.com/sergei-bronnikov/grdp/core"
 )
 
 const (
