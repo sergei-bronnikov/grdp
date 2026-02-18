@@ -193,6 +193,15 @@ func (g *RdpClient) OnBitmap(paint func([]Bitmap)) *RdpClient {
 	g.pdu.On("bitmap", func(rectangles []pdu.BitmapData) {
 		bs := make([]Bitmap, 0, 50)
 		for _, v := range rectangles {
+			if v.Width == 0 || v.Height == 0 {
+				continue
+			}
+			if v.DestRight <= v.DestLeft || v.DestBottom <= v.DestTop {
+				continue
+			}
+			if v.BitsPerPixel == 0 {
+				continue
+			}
 			IsCompress := v.IsCompress()
 			data := v.BitmapDataStream
 			if IsCompress {
